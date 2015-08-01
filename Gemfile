@@ -46,3 +46,8 @@ gem 'bcrypt-ruby', '~> 3.0.0', require: 'bcrypt'
 group :test do
   gem 'factory_girl_rails', '~> 1.4.0'
 end
+
+gem "unicorn"
+group :development do
+gem "capistrano-unicorn", require: false
+end
