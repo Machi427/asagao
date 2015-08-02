@@ -8,13 +8,18 @@ test:
   adapter: mysql2
   database: asagao_test
   username: root
-  password:
-  host: 127.0.0.1
+  password: nGh2i5och
+  host: 192.168.33.12
+  socket: /tmp/mysql.sock
   encoding: utf8
 
 production:
   adapter: mysql2
   database: asagao_production
   username: root
-  password: 
+  password: nGh2i5och
+  host: 192.168.33.12
+  socket: /tmp/mysql.sock
   encoding: utf8
+
+
